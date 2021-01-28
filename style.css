@@ -1,0 +1,20 @@
+body{
+    background-size:cover;
+    animation:Backround 5s infinite;
+}@keyframes Background{
+from{background-image:url("Background.gif")};
+to{background-image: url("Background2.gif")};
+to{background-image: url("Background3.gif")};
+}
+
+.heading{
+    font-size:20px;
+    margin:0;
+    width:100%;
+}
+canvas{
+    border:10px ridge yellow;
+}
+#status,#Object_detected_or_not{
+    font-size:18px;
+}
