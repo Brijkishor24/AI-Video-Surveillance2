@@ -10,6 +10,7 @@ body{
 }
 canvas{
     border:10px ridge yellow;
+    margin-top:100px;
     
 }
 #status,#Object_detected_or_not{
